@@ -1,1 +1,26 @@
-
+[
+  {
+    "id": 1,
+    "name": "Rahul Sharma",
+    "phone": "9999991111",
+    "emi_amount": 5000,
+    "emi_due_date": "2026-03-12",
+    "status": "pending"
+  },
+  {
+    "id": 2,
+    "name": "Priya Singh",
+    "phone": "9999992222",
+    "emi_amount": 3000,
+    "emi_due_date": "2026-03-11",
+    "status": "pending"
+  },
+  {
+    "id": 3,
+    "name": "Amit Verma",
+    "phone": "9999993333",
+    "emi_amount": 4500,
+    "emi_due_date": "2026-03-20",
+    "status": "pending"
+  }
+]
