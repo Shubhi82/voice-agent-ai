@@ -1,1 +1,6 @@
-
+fastapi
+uvicorn
+whisper
+TTS
+pydantic
+python-multipart
