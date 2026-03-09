@@ -1,7 +1,7 @@
 from fastapi import FastAPI, UploadFile
 from agent import decide_action
 from stt import speech_to_text
-from tts import text_to_voice
+# from tts import text_to_voice
 from scheduler import run_reminder
 
 app = FastAPI()
@@ -29,7 +29,7 @@ async def process_voice(file: UploadFile):
 
     response = f"You said: {text}. Decision: {decision}"
 
-    voice = text_to_voice(response)
+    voice_file = "voice disabled"
 
     return {
         "text": text,
